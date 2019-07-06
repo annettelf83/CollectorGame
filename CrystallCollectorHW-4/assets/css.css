@@ -1,0 +1,107 @@
+
+/* General Elements*/
+body{
+    background-image: url("assets/background.png");
+    background-color: white;
+}
+div{
+	margin: 100px;
+	width: 100%;
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 30px;
+}
+h1, h3, span{
+	font-weight: bold;
+    text-align: center;
+    margin: 30px;
+
+}
+h1{
+    font-size: 50px;
+    
+
+}
+ol{
+    list-style: decimal inside; 
+    font-family: 'Roboto', sans-serif;
+
+}
+
+div.crystals{
+    background-color: white;
+}
+/* Specfic Elements*/
+.header{
+	background-color: #D2691E;
+}
+.header, div.instructions{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    
+    padding-block-start: 3px;
+}
+.header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #e0e0eb;
+}
+
+/* Classes */
+.matchingNum{
+	float: left;
+	width: 40%;
+    height: 60px;
+    padding: 5%;
+}
+.winsAndLosses{
+	float: left;
+	width: 15%;
+    height: 60px;
+    padding: 5%;
+    
+}
+.userResult{
+	width: 30%;
+    height: 60px;
+    padding: 3%;
+    
+}
+.crystals{
+    clear: left;
+    padding: 10px;
+}
+.crystalImage{
+	height: 60px;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.crystals{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+
+
+}
+.crystal{
+    border:1px solid #333;
+    height:100px;
+    width: 100px;
+
+}
